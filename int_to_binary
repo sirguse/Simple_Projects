@@ -1,0 +1,14 @@
+def Int_To_Binary(number):
+
+    score = ''
+
+    if number == 0 :
+        return 0
+    
+    while number > 0:
+        score = str(number % 2) + score
+
+        number = number // 2 
+    print(score)
+
+Int_To_Binary(5)

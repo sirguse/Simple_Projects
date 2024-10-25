@@ -1,7 +1,7 @@
 from email.message import EmailMessage
 import ssl
 import smtplib
-email_sender = 'tesfov@gmail.com'
+email_sender = ''
 email_password = ''
 email_reciver = 'cosipa6772@adosnan.com'
 
